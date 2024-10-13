@@ -12,12 +12,12 @@
   - [1.7. Perguntas gerais](#17-perguntas-gerais)
 - [2. Inicialização Spring](#2-spring-initializr)
   - [2.1. start.spring.io](#21-startspringio)
-  - [2.2. CLI do Spring Boot](#22-spring-boot-cli)
+  - [2.2. CLI do Spring Boot](#22-cli-spring-boot)
 - [3. Controlador REST](#3-controlador-rest)
 - [4. Projetos Spring](#4-projetos-spring)
 - [5. Projetos Spring Boot](#5-projetos-spring-boot)
-  - [5.1. Estrutura de diretório padrão do Maven com Spring Boot](#51-estrutura-de-diretorio-padrao-do-maven-com-spring-boot)
-  - [5.2. Arquivos do wrapper do Maven](#52-arquivos-do-wrapper-do-maven)
+  - [5.1. Estrutura de diretório padrão do Maven com Spring Boot](#51-estrutura-de-diretório-padrão-do-maven-com-spring-boot)
+  - [5.2. Arquivos do wrapper do Maven](#52-arquivos-do-maven-wrapper)
   - [5.3. Arquivo POM do Maven com Spring Boot](#53-arquivo-pom-do-maven-com-spring-boot)
 - [6. Iniciadores do Spring Boot](#6-iniciadores-do-spring-boot)
 - [7. Spring Boot Dev Tools](#7-spring-boot-dev-tools)
@@ -62,10 +62,10 @@
   - [10.11. Inicialização Preguiçosa (Lazy Initialization)](#1011-inicializacao-preguicosa-lazy-initialization)
     - [10.11.1. Inicialização Preguiçosa](#10111-inicializacao-preguicosa)
     - [10.11.2. Vantagens e Desvantagens](#10112-vantagens-e-desvantagens)
-  - [10.12. Escopos do Bean](#1012-escopos-do-bean)
-    - [10.12.1. Escopo Padrão](#10121-escopo-padrao)
-  - [10.13. Escopos Adicionais do Spring Bean](#1013-escopos-adicionais-do-spring-bean)
-  - [10.14. Métodos do Ciclo de Vida do Bean - Anotações](#1014-metodos-do-ciclo-de-vida-do-bean---anotacoes)
+  - [10.12. Escopos do Bean](#1012-escopos-de-bean)
+    - [10.12.1. Escopo Padrão](#10121-escopo-padrão)
+  - [10.13. Escopos Adicionais do Spring Bean](#1013-escopos-adicionais-de-bean-do-spring)
+  - [10.14. Métodos do Ciclo de Vida do Bean - Anotações](#1014-métodos-do-ciclo-de-vida-do-bean---anotações)
 - [11. Comandos - Executar a partir da Linha de Comando](#11-comandos---executar-a-partir-da-linha-de-comando)
   - [11.1. Comandos do Maven](#111-comandos-maven)
   - [11.2. Comandos Spring](#112-comandos-spring)
@@ -233,9 +233,7 @@ public class HelloWorldController {
     </build>
   ```
 
-
-2.030 / 5.000
-# 6. Spring Boot Starters
+# 6. Iniciadores do Spring Boot
 
 - **O problema...**
   - Construir um aplicativo Spring é realmente DIFÍCIL!!!
