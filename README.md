@@ -506,7 +506,7 @@ public class HelloWorldController {
   # Nome de usuário padrão
   spring.security.user.name=admin
   # Senha para o usuário padrão
-  spring.security.user.password=
+  spring.security.user.password=admin@123
 ```
 
 ### 9.2.5. Propriedades de Dados
